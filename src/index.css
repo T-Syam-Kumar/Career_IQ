@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 220 30% 5%;
+    --foreground: 220 30% 93%;
+
+    --card: 222 28% 10%;
+    --card-foreground: 220 30% 93%;
+
+    --popover: 222 28% 10%;
+    --popover-foreground: 220 30% 93%;
+
+    --primary: 163 100% 41%;
+    --primary-foreground: 220 30% 5%;
+
+    --secondary: 222 25% 15%;
+    --secondary-foreground: 220 30% 93%;
+
+    --muted: 222 20% 18%;
+    --muted-foreground: 218 16% 60%;
+
+    --accent: 222 25% 15%;
+    --accent-foreground: 220 30% 93%;
+
+    --destructive: 0 100% 68%;
+    --destructive-foreground: 220 30% 5%;
+
+    --border: 0 0% 100% / 0.07;
+    --input: 0 0% 100% / 0.12;
+    --ring: 163 100% 41%;
+
+    --radius: 12px;
+
+    --sidebar-background: 222 28% 10%;
+    --sidebar-foreground: 218 16% 60%;
+    --sidebar-primary: 163 100% 41%;
+    --sidebar-primary-foreground: 220 30% 5%;
+    --sidebar-accent: 163 100% 41% / 0.08;
+    --sidebar-accent-foreground: 163 100% 41%;
+    --sidebar-border: 0 0% 100% / 0.07;
+    --sidebar-ring: 163 100% 41%;
+
+    --amber: 36 91% 55%;
+    --amber-foreground: 220 30% 5%;
+    --blue: 212 100% 73%;
+    --blue-foreground: 220 30% 5%;
+    --purple: 253 100% 75%;
+    --purple-foreground: 220 30% 5%;
+
+    --font-display: 'DM Serif Display', Georgia, serif;
+    --font-body: 'DM Sans', system-ui, sans-serif;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: var(--font-body);
+  }
+}
+
+@layer utilities {
+  .font-display {
+    font-family: var(--font-display);
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-track { background: hsl(var(--background)); }
+::-webkit-scrollbar-thumb { background: hsl(var(--muted)); border-radius: 3px; }
+
+/* ATS Ring animation */
+@keyframes ring-fill {
+  from { stroke-dashoffset: 283; }
+}
+
+/* Cursor blink for AI streaming */
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+.ai-cursor {
+  display: inline-block;
+  width: 2px;
+  height: 14px;
+  background: hsl(var(--primary));
+  animation: blink 1s infinite;
+  vertical-align: middle;
+}
