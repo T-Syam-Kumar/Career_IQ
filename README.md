@@ -1,13 +1,13 @@
-# CareerIQ 🚀  
+# CareerIQ   
 ### AI-Powered Resume Intelligence & Career Growth Platform
 
 CareerIQ is an intelligent career assistant designed to help students, freshers, and professionals optimize their resumes, improve ATS scores, identify skill gaps, and discover relevant job opportunities.
 
-🔗 **Live Demo:** https://career-path-phi.vercel.app/ :contentReference[oaicite:0]{index=0}
+**Live Demo:** https://career-path-phi.vercel.app/ :contentReference[oaicite:0]{index=0}
 
 ---
 
-## 📌 Overview
+##  Overview
 
 In today’s competitive hiring market, resumes often get filtered by ATS (Applicant Tracking Systems) before reaching recruiters. CareerIQ helps users overcome that challenge by analyzing resumes and providing actionable suggestions.
 
@@ -22,9 +22,9 @@ It acts as your personal AI career coach by combining:
 
 ---
 
-## ✨ Features
+##  Features
 
-### 📄 Resume Upload & ATS Analysis
+###  Resume Upload & ATS Analysis
 Upload your resume and receive an ATS score based on:
 
 - Keywords Match  
@@ -33,27 +33,27 @@ Upload your resume and receive an ATS score based on:
 - Technical Skills  
 - Education Strength  
 
-### 🧠 AI Suggestions
+###  AI Suggestions
 Get intelligent recommendations to improve your resume content, wording, structure, and impact.
 
-### 💼 Job Match Recommendations
+###  Job Match Recommendations
 Find job roles that match your profile and skill set.
 
-### 🛠 Skill Gap Detection
+###  Skill Gap Detection
 Identify missing skills required for target job roles.
 
-### 🎯 Interview Preparation
+###  Interview Preparation
 Practice common interview questions tailored to your domain.
 
-### 📝 Resume Builder
+###  Resume Builder
 Create ATS-friendly resumes directly inside the platform.
 
-### 📌 Application Tracker
+###  Application Tracker
 Track jobs you applied for in one dashboard.
 
 ---
 
-## 🖥 Dashboard Preview
+##  Dashboard Preview
 
 - ATS Score Breakdown  
 - Resume Summary  
@@ -64,7 +64,7 @@ Track jobs you applied for in one dashboard.
 
 ---
 
-## 🧰 Tech Stack
+##  Tech Stack
 
 ### Frontend
 - React.js
@@ -86,19 +86,19 @@ Track jobs you applied for in one dashboard.
 
 ---
 
-## 📊 Example ATS Metrics
+##  Example ATS Metrics
 
-| Category | Score |
-|--------|------|
-| Keywords | 75% |
-| Formatting | 80% |
-| Experience | 45% |
-| Skills | 85% |
-| Education | 95% |
+| Category   | Score|
+|------------|------|
+| Keywords   | 75%  |
+| Formatting | 80%  |
+| Experience | 45%  |
+| Skills     | 85%  |
+| Education  | 95%  |
 
 ---
 
-## 🎯 Target Users
+##  Target Users
 
 - Students  
 - Fresh Graduates  
@@ -108,7 +108,7 @@ Track jobs you applied for in one dashboard.
 
 ---
 
-## 🚀 How It Works
+##  How It Works
 
 1. Upload Resume  
 2. AI scans your resume  
