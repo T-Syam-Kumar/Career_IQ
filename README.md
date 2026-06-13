@@ -3,8 +3,7 @@
 
 CareerIQ is an intelligent career assistant designed to help students, freshers, and professionals optimize their resumes, improve ATS scores, identify skill gaps, and discover relevant job opportunities.
 
-**Live Demo:** https://career-path-phi.vercel.app/ :contentReference[oaicite:0]{index=0}
-
+**Live Demo:** https://career-path-phi.vercel.app/ 
 ---
 
 ##  Overview
