@@ -116,7 +116,6 @@ Track jobs you applied for in one dashboard.
 5. Suggests Improvements  
 6. Matches Relevant Jobs  
 7. Helps Prepare for Interviews  
-
 ---
 
 
